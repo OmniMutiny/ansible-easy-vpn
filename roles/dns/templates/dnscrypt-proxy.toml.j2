@@ -66,7 +66,7 @@ cache_neg_max_ttl = 600
 
 {% if 'quad9' in dns_nameservers %}
 server_names = ['quad9-doh-ip4-port443-nofilter-pri']
-bootstrap_resolvers = ['9.9.9.9:53', '149.112.112.112:53']
+bootstrap_resolvers = ['192.168.50.100:53']
 netprobe_address = '9.9.9.9:53'
 
 {% elif 'google' in dns_nameservers %}
